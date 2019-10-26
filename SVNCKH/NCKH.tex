@@ -1,0 +1,55 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{babel}
+\usepackage[utf8]{vietnam}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{epstopdf}
+\usepackage{amsfonts}
+\begin{document}
+	\begin{equation*}
+	L = L_0e^{-kd} + L_{\infty}(1 - e^{-kd})
+	\end{equation*}
+	\begin{align*}
+	&L = (L_0 - L_\infty)e^{-kd} + L_\infty\\
+	&\frac{L - L_\infty}{L_\infty} = \frac{L_0 - L_\infty}{L_\infty}e^{-kd}\\
+	&C = C_0e^{-kd}
+	\end{align*}
+	\begin{equation*}
+	d = -\frac{1}{k}\ln{\frac{C}{C_0}}
+	\end{equation*}
+	\begin{equation*}
+	\frac{C}{C_0} \ge 0.05
+	\end{equation*}
+	\begin{equation*}
+	d_{vis} = -\frac{1}{k}\ln{(0.05)} \approx \frac{3}{k}
+	\end{equation*}
+	\[
+	\begin{cases*}	
+	 u = u_0 + \alpha\frac{x}{z}\\
+	 v = v_0 + \alpha\frac{y}{z} 
+	 \end{cases*}
+	\]
+	\begin{equation*}
+	v_h = v_0 - \alpha\tan{\theta}
+	\end{equation*}
+	\begin{align*}
+	L &= (L_0 - L_\infty)e^{-kd} + L_\infty\\
+	  &= (L_0 - L_\infty)e^{\frac{-k\lambda}{v - v_h}} + L_\infty
+	\end{align*}
+	\begin{equation*}
+	\frac{dL}{dv} = \frac{k\lambda(L_0 - L_\infty)}{(v - v_h)^2}e^{\frac{-k\lambda}{v - v_h}}
+	\end{equation*}
+	\begin{equation*}
+	\frac{d^2L}{dv^2} = \frac{k\lambda(L_0 - L_\infty)}{(v - v_h)^3}e^{\frac{-k\lambda}{v - v_h}}(\frac{k\lambda}{v - v_h} - 2)
+	\end{equation*}
+	$\frac{d^2L}{dv^2} = 0$ khi $\frac{k\lambda}{v - v_h} - 2 = 0$\\
+	\newline
+	$v_i = v_h + \frac{k\lambda}{2}$
+	\begin{equation*}
+	k = \frac{2(v_i - v_h)}{\lambda} = \frac{2}{d_i} 
+	\end{equation*}
+	\begin{equation*}
+	d_{vis} = \frac{3}{k} = \frac{3\lambda}{2(v_i - v_h)}
+	\end{equation*}
+\end{document}

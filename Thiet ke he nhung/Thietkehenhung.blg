@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thietkehenhung.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: mybibfile.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in art1
+Too many commas in name 1 of "Yung-Pin Lee, Thou-Ho Chen, Liang-Gee Chen, Mei-Juan Chen and Chung-Wei Ku" for entry art2
+while executing---line 2403 of file IEEEtran.bst
+Warning--empty journal in art3
+Name 1 in "Jridi, M., AlFalou, A., and Meher, P. K." has a comma at the end for entry art5
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "Jridi, M., AlFalou, A., and Meher, P. K." for entry art5
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "Wu Z, Sha J, Wang Z, Li L, Gao M" for entry art6
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "Wu Z, Sha J, Wang Z, Li L, Gao M" for entry art6
+while executing---line 2403 of file IEEEtran.bst
+Warning--empty booktitle in art8
+Warning--missing publisher in book1
+Warning--empty year in book1
+
+Done.
+You've used 10 entries,
+            4087 wiz_defined-function locations,
+            868 strings with 8873 characters,
+and the built_in function-call counts, 4431 in all, are:
+= -- 337
+> -- 82
+< -- 12
++ -- 40
+- -- 17
+* -- 192
+:= -- 789
+add.period$ -- 19
+call.type$ -- 10
+change.case$ -- 13
+chr.to.int$ -- 27
+cite$ -- 15
+duplicate$ -- 367
+empty$ -- 421
+format.name$ -- 22
+if$ -- 983
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 60
+newline$ -- 53
+num.names$ -- 14
+pop$ -- 165
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 347
+stack$ -- 0
+substring$ -- 72
+swap$ -- 209
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 10
+warning$ -- 5
+while$ -- 15
+width$ -- 12
+write$ -- 102
+(There were 5 error messages)
